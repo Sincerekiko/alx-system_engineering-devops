@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Generating SSH key-pairs according to Task requirements
 
-# Create an RSA key pair with specified name, number of bits, and passphrase
-ssh-keygen -t rsa -b 4096 -C "vagrant@ubuntu" -f school -N "betty"
+ssh-keygen -t rsa -b 4096 -P betty -f school
