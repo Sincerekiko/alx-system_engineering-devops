@@ -1,0 +1,29 @@
+Introduction:
+As we navigate the vast landscape of the internet, we often take for granted the intricate dance of technologies that facilitate our seamless browsing experience. Behind the scenes, a symphony of protocols and systems orchestrates our journey from a simple URL input to the loading of a webpage. In this article, we embark on a journey ourselves, dissecting each step in the process of what happens when we type "https://www.google.com" into our browser and hit Enter.
+
+DNS Request:
+Our journey begins with the Domain Name System (DNS). When we type "https://www.google.com" into our browser, the browser first needs to resolve the domain name "www.google.com" to an IP address. It sends a DNS request to a DNS resolver, which might be provided by our ISP or a third-party service. The resolver then recursively queries authoritative DNS servers until it obtains the IP address associated with "www.google.com".
+
+TCP/IP:
+Armed with the IP address, our browser initiates a Transmission Control Protocol (TCP) connection to the server hosting Google's website. TCP ensures reliable, ordered, and error-checked delivery of data packets over the internet. It establishes a connection through a series of handshakes, including SYN, SYN-ACK, and ACK, ensuring both the client and server are ready to exchange data.
+
+Firewall:
+As our data packets traverse the internet, they may encounter firewalls—security barriers designed to monitor and control incoming and outgoing network traffic. Firewalls examine each packet to determine if it meets security criteria, such as filtering out malicious or unauthorized requests. If our request passes through unimpeded, it continues its journey to Google's servers.
+
+HTTPS/SSL:
+In the era of cybersecurity threats, protecting data in transit is paramount. Hypertext Transfer Protocol Secure (HTTPS) encrypts our communication with the website using Secure Sockets Layer (SSL) or Transport Layer Security (TLS) protocols. Before any data exchange occurs, our browser and the server engage in a TLS handshake, wherein they negotiate encryption parameters and exchange cryptographic keys to establish a secure connection.
+
+Load-Balancer:
+Behind the façade of a seemingly singular website like Google, lies a complex infrastructure of servers working in tandem to handle user requests efficiently. Load balancers distribute incoming traffic across multiple servers, ensuring optimal resource utilization, scalability, and high availability. They employ various algorithms to route requests based on factors like server load, geographic proximity, or session persistence.
+
+Web Server:
+Upon reaching Google's servers, our request lands at the doorstep of a web server—software designed to fulfill client requests for web pages and deliver them over the internet. The web server processes our request, retrieves the requested webpage and any associated resources, such as HTML, CSS, JavaScript, and images, and packages them into a response.
+
+Application Server:
+For dynamic content generation or complex business logic execution, the web server may delegate certain tasks to an application server. Application servers host web applications, running server-side scripts or applications written in languages like Python, Ruby, or Java. They interact with databases, perform computations, and generate dynamic content before sending it back to the web server for delivery to the client.
+
+Database:
+In the depths of Google's infrastructure, vast repositories of data reside within databases. Whether it's storing user preferences, indexing web pages, or logging analytics, databases play a crucial role in powering the functionality of web applications. Application servers query databases to retrieve or update information dynamically, ensuring that the content served to users remains fresh and relevant.
+
+Conclusion:
+As we conclude our journey, we gain a newfound appreciation for the intricate web of technologies that underpins our browsing experience. From the humble DNS request to the intricate dance of encryption, load balancing, and server-side processing, each step contributes to the seamless delivery of content from the vast expanse of the internet to our fingertips. Armed with this knowledge, we navigate the digital realm with a deeper understanding of the technologies that shape our online interactions.

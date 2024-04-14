@@ -1,0 +1,20 @@
+Browser
+  |
+  | DNS Resolution
+  v
+DNS Resolver
+  |
+  | IP Address
+  v
+Firewall
+  |
+  | Encrypted TCP Connection
+  v
+Load Balancer
+  |
+  | Web Server
+  v
+Application Server
+  |
+  | Database
+  v

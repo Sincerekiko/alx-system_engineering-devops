@@ -1,0 +1,5 @@
+I've submitted a pull request to the "what-happens-when" repository to contribute a comprehensive answer to the question. You can find the pull request here: [Pull Request](https://github.com/alex/what-happens-when/pull/672)
+
+My addition aims to enhance the existing content by providing a detailed explanation of what happens when "https://www.google.com" is entered into a browser and the Enter key is pressed. This addition covers DNS resolution, TCP/IP connection establishment, encryption, firewall traversal, load balancing, web server processing, application server interaction, and database querying.
+
+By contributing to this repository, we can collectively create a valuable resource for understanding the intricacies of web technologies.
